@@ -1,6 +1,5 @@
 {
-  "homepage": "https://Raghav-686.github.io/FitPEO_Assignment",
-  "name": "frontend",
+  "name": "FitPeo_Assign",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
