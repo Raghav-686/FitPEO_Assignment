@@ -70,3 +70,56 @@
     }
 
 }
+
+@media screen and (max-width:1165px){
+    .income-container{
+        display: block;
+
+        .data-container{
+            margin-bottom: 1rem;
+        }
+    }
+
+    .customer-container{
+        min-height: 200px;
+
+        .donut-chart{
+            padding-left: 2rem;
+        }
+
+        .doughnut{
+            height: 200px !important;
+            width: 200px !important;
+        }
+
+        .dougnut-text{
+            top: 31% !important;
+            left: 38% !important;
+        }
+    }
+
+    .product-container{
+        .head{
+            width: 55%;
+        }
+
+        .input{
+            width: 25%;
+        }
+
+        .data-container{
+            .product{
+                width: 55%;
+            }
+            .right-bar{
+                width: 15%;
+            }
+            .heading{
+                font-weight: 100;
+            }
+            .price-center{
+                text-align: center;
+            }
+        }
+    }
+}

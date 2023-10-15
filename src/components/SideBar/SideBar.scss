@@ -1,6 +1,6 @@
 .main-container{
     background-color: #040440;
-    width: 190px;
+    width: 12.5%;
     padding: 25px 20px 10px 10px;
 
     .dash-icon{
@@ -28,5 +28,16 @@ li{
                 padding-top: 2px;
             }
         }
+    }
+}
+
+@media screen and (max-width:1165px){
+    .main-container{
+        height: 100%;
+        width: 6%;
+        padding: 25px 10px 10px 5px;
+    }
+    #side-none{
+        display: none;
     }
 }

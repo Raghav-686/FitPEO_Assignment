@@ -26,10 +26,10 @@ const Product = () => {
     <div className="product-container bg-white rounded-md p-5 box-shadow mt-6">
       <div className="inner">
         <div className="flex mb-8">
-          <h3 className=" w-3/4">Product Shell</h3>
+          <h3 className="head w-3/4">Product Shell</h3>
           <div className="pr-3">
             <input
-              className=" border-none p-1 pl-3 rounded text-gray-600"
+              className="input border-none p-1 pl-3 rounded text-gray-600"
               placeholder="Search"
             ></input>
           </div>
@@ -41,19 +41,19 @@ const Product = () => {
         </div>
         <div className="data-container">
           <div
-            className="flex mb-4 pb-3 font-bold"
+            className="heading flex mb-4 pb-3 font-bold"
             style={{ "border-bottom": "1px solid #D5D5D5", color: "#D5D5D5" }}
           >
-            <p className="w-3/4">Product Name</p>
-            <p className="w-1/12">Stock</p>
-            <p className="w-1/12">Price</p>
-            <p className="w-1/12">Total Sales</p>
+            <p className="product w-3/4">Product Name</p>
+            <p className="right-bar w-1/12">Stock</p>
+            <p className="price-center right-bar w-1/12">Price</p>
+            <p className="right-bar w-1/12">Total Sales</p>
           </div>
           <div >
             {data.map((object) => {
               return (
                 <div className="flex pb-4">
-                  <div className="flex w-3/4">
+                  <div className="product flex w-3/4">
                     <div style={{ width: "10%" }}>
                       <img
                         className="w-full rounded-lg"
@@ -68,7 +68,7 @@ const Product = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="w-1/12 pt-4">
+                  <div className="right-bar w-1/12 pt-4">
                     <p
                       style={{
                         "font-size": "13px",
@@ -79,10 +79,10 @@ const Product = () => {
                       {object?.stock} in stock
                     </p>
                   </div>
-                  <div className="w-1/12 pt-4">
-                    <p className=" font-bold">${object?.price}</p>
+                  <div className="right-bar w-1/12 pt-4">
+                    <p className="font-bold">${object?.price}</p>
                   </div>
-                  <div className="w-1/12 pt-4 text-center">
+                  <div className="right-bar w-1/12 pt-4 text-center">
                     <p className="font-bold" style={{ color: "#0000008a" }}>
                       {object?.["total-Sales"]}
                     </p>

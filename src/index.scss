@@ -18,10 +18,26 @@ textarea:focus, input:focus{
 
 .main-wrapper{
   .side-bar{
-    width: 219px;
+    width: 14.5%;
   }
   .outlet{
     padding: 25px 30px 30px 30px;
-    width: calc(100% - 276px);
+    width: calc(100% - 18.5%);
+  }
+}
+
+@media screen and (max-width:1165px){
+  .main-wrapper{
+    overflow-x: hidden;
+    width: auto;
+
+    .side-bar{
+      width: 11%;
+    }
+
+    .outlet{
+      width:88% !important;
+      padding: 4px;
+    }
   }
 }

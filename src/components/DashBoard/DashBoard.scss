@@ -8,3 +8,28 @@
         width: 30%;
     }
 }
+
+@media screen and (max-width:1165px){
+        .upper-container{
+            h3{
+                width: 93%;
+            }
+            input{
+                width: 85%;
+                float: right;
+            }
+        }
+
+        .middle-container{
+            display: block;
+
+            .overview-cont{
+                margin-bottom: 1rem;
+                width: 100%;
+            }
+
+            .customer-cont{
+                width: 100%;
+            }
+        }
+}

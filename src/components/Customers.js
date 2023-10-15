@@ -18,13 +18,13 @@ const Customers=()=>{
             <div className="inner">
                 <h3>Customers</h3>
                 <p className='mb-3 head'>Customers that buy Products</p>
-                <div className=' pl-4 relative'>
+                <div className='donut-chart pl-4 relative'>
                     <p className='absolute dougnut-text'>
                         <p className='font-bold text-center text-3xl'>65%</p>
                         <p>Total New</p>
                         <p>Customers</p>
                     </p>
-                    <Doughnut data={data}>
+                    <Doughnut className='doughnut' data={data}>
                     </Doughnut>
                 </div>
             </div>
